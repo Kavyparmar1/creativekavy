@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow; 
+    
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#view{
+    display: none;
+}
+#n-left{
+    height: 100%;
+    width: 50vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vh;
+}
+#n-left a{
+    text-decoration: none;
+    font-size: 2vh;
+    color: black;
+  
+}
+#n-right{
+    height: 100%;
+    width: 50vh;
+    font-size: 2vh;
+   padding-right: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#n-right h3{
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+
+#hero{
+    height: 90vh;
+    width: 100%;
+    padding: 3vh;
+    background-color: white;
+  
+}
+#nepo{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+  background-image: url(https://sic-jade.vercel.app/assets/hero_desktop-tuDJ0-r8.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2563EB;
+}
+#nepo h3{
+    font-size: 2.5vh;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+}
+#nepo h2{
+    font-size: 4vh;
+    font-weight: 500;
+}
+#hero-text{
+    height: 40vh;
+    width: 20%;
+    background-color: aqua;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh;
+}
+#imageshow{
+    height: 47vh;
+    width: 40%;
+  
+}
+#imageshow img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+#textshow{
+    height: 50vh;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+#textshow p{
+    opacity: 1;
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-top: 2vh;
+    line-height: 1.5;
+    color: #2563EB;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+ 
+}
+#page3 img{
+    position: absolute;
+    height: 10vh;
+    width: 20vh;
+    object-fit: cover;
+}
+#lefty{
+    height: 50vh;
+    width: 60vh;
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   position: absolute;
+   bottom: 20%;
+   margin-left: 10vh;
+ background-image: url(./left_2560-jbiY08PP.webp);
+ background-size: contain;
+ background-position: center;
+ background-repeat: no-repeat;
+   
+}
+
+#righty{
+    height: 50vh;
+    width: 60vh;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 20%;
+    right: 10vh;
+    background-image: url(./right_2560-UskDCFle.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #2563EB;
+    position: relative;
+ 
+}
+
+#leftimg{
+    height: 55vh;
+    width: 40vh;
+    
+    position: absolute;
+
+}
+#rightimg{
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#h1s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page4 h1{
+    font-size: 5vh;
+
+    color: white;
+    font-weight: 500;
+    
+}
+
+#h1s a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2vh;
+ border: 2px solid white;
+    padding: 1.5vh 4vh;
+
+
+}
+#page5{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+  object-fit: contain;
+}
+
+#imgess{
+    height: 90vh;
+    width: 100%;
+
+    background: url(./footerBreak_1280-BciciygI.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#footer{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer h1{
+color: black;
+    font-weight: 500;
+}
+/* Medium Phones */
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    #page1{
+        height: 100vh;
+        width: 100%;
+        background-color: yellow; 
+        
+    }
+
+    #view{
+        display:flex;
+        font-size: 1vh;
+        padding-left: 2vh;
+        color: red;
+        padding-top: 2vh;
+    }
+    #nav{
+        display: none;
+        height: 10vh;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    #n-left{
+        display: none;
+        height: 100%;
+        width: 50vh;
+        /* background-color: green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5vh;
+    }
+    #n-left a{
+        display: none;
+        text-decoration: none;
+        font-size: 2vh;
+        color: black;
+      
+    }
+    #n-right{
+        
+        height: 100%;
+        width: 50vh;
+        font-size: 2vh;
+       padding-right: 5vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #n-right h3{
+        font-size: 2vh;
+        font-weight: 500;
+    }
+    
+    
+    #hero{
+        height: 90vh;
+        width: 100%;
+        padding: 0vh;
+        background-color: white;
+      
+    }
+    #nepo{
+        height: 100%;
+        width: 100%;
+        background-color: yellow;
+      background-image: url(https://sic-jade.vercel.app/assets/hero_desktop-tuDJ0-r8.webp);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #2563EB;
+    }
+    #nepo h3{
+        font-size: 2.5vh;
+        font-weight: 500;
+        border-bottom: 1px solid black;
+        margin-bottom: 2vh;
+    }
+    #nepo h2{
+        font-size: 4vh;
+        font-weight: 500;
+    }
+    #hero-text{
+        height: 40vh;
+        width: 20%;
+        background-color: aqua;
+    }
+    #page2{
+        height: 100vh;
+        width: 100%;
+        background-color: yellow;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vh;
+    }
+    #imageshow{
+        height: 10vh;
+        width: 40%;
+        /* background-color: red; */
+      
+    }
+    #imageshow img{
+        height: 90%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #textshow{
+        height: 100vh;
+        width: 70%;
+        /* background-color: red; */
+        margin-left: 1vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #textshow p{
+        opacity: 1;
+        font-size: 2vh;
+        font-weight: 500;
+        margin-top: 1vh;
+        line-height: vh;
+        color: #2563EB;
+    }
+    #page3{
+        height: 100vh;
+        width: 100%;
+        background-color: yellow;
+        display: flex;
+        position: relative;
+     
+    }
+    #page3 img{
+        position: absolute;
+        height: 10vh;
+        width: 20vh;
+        object-fit: cover;
+    }
+    #lefty{
+        height: 40vh;
+        width: 50vh;
+       /* background-color: red; */
+       display: flex;
+       align-items: center;
+       position: absolute;
+       bottom: 50%;
+       border-left-width: 0;
+       margin-left: 1vh;
+     background-image: url(./left_2560-jbiY08PP.webp);
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+       
+    }
+    
+    #righty{
+        height: 40vh;
+        width: 50vh;
+        /* background-color: red; */
+        position: absolute;
+        bottom: 0%;
+        right: 0vh;
+        background-image: url(./right_2560-UskDCFle.webp);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+    #page4{
+        height: 100vh;
+        width: 100%;
+        background-color: #2563EB;
+        position: relative;
+     
+    }
+    
+    #leftimg{
+        height: 30vh;
+        width: 20vh;
+        
+        position: absolute;
+    
+    }
+    #rightimg{
+        height: 20vh;
+        width: 20vh;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    #h1s{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 40%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page4 h1{
+        font-size: 3vh;
+       text-align: center;
+        color: white;
+        font-weight: 500;
+        
+    }
+    
+    #h1s a{
+        text-decoration: none;
+        color: white;
+        margin-top: 2vh;
+     border: 2px solid white;
+        padding: 1.5vh 4vh;
+    
+    
+    }
+    #page5{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+      object-fit: contain;
+    }
+    
+    #imgess{
+        height: 90vh;
+        width: 100%;
+    
+        background: url(./footerBreak_1280-BciciygI.webp);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #footer{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer h1{
+        font-size: 2.2vh;
+        color: black;
+        font-weight: 500;
+    }
+    
+}
